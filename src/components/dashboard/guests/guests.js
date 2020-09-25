@@ -25,7 +25,8 @@ class Guests extends Component {
                 return <GuestsList />
             case 1:
                 return <AddGuest onCancelForm={this.cancelActiveView}/>
-        
+            default:
+                return <GuestsList />
       }
   }
 

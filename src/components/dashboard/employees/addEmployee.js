@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import { View, Text, TextInput, ScrollView, Dimensions, Picker, TouchableOpacity } from 'react-native';
 
-import DatePicker from 'react-datepicker';
-import "react-datepicker/dist/react-datepicker.css";
-
 const windowWidth = (Dimensions.get('window').width * 0.75);
 
 class AddEmployee extends Component {

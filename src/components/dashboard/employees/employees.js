@@ -25,7 +25,8 @@ class Employees extends Component {
                 return <EmployeeList />
             case 1:
                 return <AddEmployee onCancelForm={this.cancelActiveView}/>
-        
+            default:
+                return <EmployeeList />
       }
   }
 

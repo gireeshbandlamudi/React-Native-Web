@@ -57,7 +57,8 @@ class Dashboard extends Component {
                 localStorage.clear();
                 this.setState({
                     isLogout: true,
-                })
+                });
+                break;
             default: 
                 return <Guests />
       }
